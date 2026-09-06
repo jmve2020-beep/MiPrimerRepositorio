@@ -1,0 +1,27 @@
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+
+
+.caja {
+    background-color: #3498db;
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* Configuración para celular */
+
+@media (max-width: 600px) {
+
+    .contenedor {
+
+        flex-direction: column;
+
+    }
+
+}
