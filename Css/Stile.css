@@ -1,3 +1,6 @@
+body{
+    background-color: aquamarine;
+}
 .contenedor {
     display: flex;
     gap: 20px;
